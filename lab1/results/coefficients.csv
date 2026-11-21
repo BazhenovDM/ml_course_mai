@@ -1,0 +1,170 @@
+model;feature;coefficient
+ordinary;fixed acidity;0.12897051910046634
+ordinary;volatile acidity;-0.250485840234501
+ordinary;citric acid;-0.01800696790144274
+ordinary;residual sugar;0.30635993784161325
+ordinary;chlorides;-0.02950089525911228
+ordinary;free sulfur dioxide;0.08489128033076127
+ordinary;total sulfur dioxide;-0.06833869135618509
+ordinary;density;-0.31920255397979086
+ordinary;pH;0.0863771258522713
+ordinary;sulphates;0.10512605106587994
+ordinary;alcohol;0.25119889329407136
+ordinary;color_white;-0.3617026432225596
+ordinary;intercept;6.077220922215745
+selected;fixed acidity;0.0345541984834018
+selected;volatile acidity;-0.1183383747593202
+selected;citric acid;0.011514690037804271
+selected;log1p(residual sugar);0.04656065397969672
+selected;chlorides;-0.055852950796942843
+selected;log1p(free sulfur dioxide);0.05457802272167066
+selected;log1p(total sulfur dioxide);-0.0656564607492895
+selected;density;-0.07634808003936293
+selected;pH;0.01608107459427485
+selected;sulphates;0.061812391122574264
+selected;alcohol;0.13586720088645446
+selected;fixed acidity^2;-0.025723481614162387
+selected;fixed acidity volatile acidity;-0.007005408409819579
+selected;fixed acidity citric acid;0.010136157424937266
+selected;fixed acidity log1p(residual sugar);0.006356905503229376
+selected;fixed acidity chlorides;-0.024909319502371255
+selected;fixed acidity log1p(free sulfur dioxide);-0.01357525578569209
+selected;fixed acidity log1p(total sulfur dioxide);-0.027229234329613043
+selected;fixed acidity density;0.01528408521901716
+selected;fixed acidity pH;0.0232161345795783
+selected;fixed acidity sulphates;0.010314546666075779
+selected;fixed acidity alcohol;0.0018809293825923223
+selected;volatile acidity^2;0.0038627967399847835
+selected;volatile acidity citric acid;0.009876511460265164
+selected;volatile acidity log1p(residual sugar);-0.0027881021438458074
+selected;volatile acidity chlorides;0.006540648626847517
+selected;volatile acidity log1p(free sulfur dioxide);-0.0034748273915144734
+selected;volatile acidity log1p(total sulfur dioxide);0.029659711991232948
+selected;volatile acidity density;0.002735417295527365
+selected;volatile acidity pH;-0.008964265611880701
+selected;volatile acidity sulphates;0.009052593039565331
+selected;volatile acidity alcohol;0.04209695789434343
+selected;citric acid^2;-0.0047419780805566325
+selected;citric acid log1p(residual sugar);0.00976730830353057
+selected;citric acid chlorides;0.004893978469984411
+selected;citric acid log1p(free sulfur dioxide);0.015519896916988258
+selected;citric acid log1p(total sulfur dioxide);0.0020658763592150504
+selected;citric acid density;-0.01422662050700655
+selected;citric acid pH;-0.003924066187916233
+selected;citric acid sulphates;-0.021910370471127365
+selected;citric acid alcohol;0.015782621803870335
+selected;log1p(residual sugar)^2;-0.011405995874377482
+selected;log1p(residual sugar) chlorides;-0.004887411003085346
+selected;log1p(residual sugar) log1p(free sulfur dioxide);0.008507194448973479
+selected;log1p(residual sugar) log1p(total sulfur dioxide);0.0269070813622898
+selected;log1p(residual sugar) density;0.02305557980008439
+selected;log1p(residual sugar) pH;-0.001321339243025077
+selected;log1p(residual sugar) sulphates;-0.029249780466661865
+selected;log1p(residual sugar) alcohol;-0.006720603447353695
+selected;chlorides^2;-0.0028821196585568608
+selected;chlorides log1p(free sulfur dioxide);-0.010831220006305792
+selected;chlorides log1p(total sulfur dioxide);-0.021465924797689825
+selected;chlorides density;0.017707612389668795
+selected;chlorides pH;-0.021766861723767295
+selected;chlorides sulphates;-0.01981374664857895
+selected;chlorides alcohol;0.002333768143661232
+selected;log1p(free sulfur dioxide)^2;-0.054447660612351595
+selected;log1p(free sulfur dioxide) log1p(total sulfur dioxide);0.009743136800803676
+selected;log1p(free sulfur dioxide) density;-0.00981865939687373
+selected;log1p(free sulfur dioxide) pH;0.011346976665779128
+selected;log1p(free sulfur dioxide) sulphates;-0.002853915848252571
+selected;log1p(free sulfur dioxide) alcohol;-0.0028818031139884607
+selected;log1p(total sulfur dioxide)^2;-0.002376037219891901
+selected;log1p(total sulfur dioxide) density;-0.006538603605230939
+selected;log1p(total sulfur dioxide) pH;0.017197327092448714
+selected;log1p(total sulfur dioxide) sulphates;-0.06588923389065157
+selected;log1p(total sulfur dioxide) alcohol;-0.03364907436443791
+selected;density^2;0.025752813382747177
+selected;density pH;-0.03463932418424612
+selected;density sulphates;0.0034164826341253635
+selected;density alcohol;-0.03031511985707048
+selected;pH^2;-0.011586119625661584
+selected;pH sulphates;0.01841863457030222
+selected;pH alcohol;0.02142922886994683
+selected;sulphates^2;-0.0025800934723303488
+selected;sulphates alcohol;0.03992975964631106
+selected;alcohol^2;0.009901465995646432
+selected;color_white;-0.013731605722435189
+selected;fixed acidity:color_white;0.002584563546974254
+selected;volatile acidity:color_white;-0.1070044782353205
+selected;citric acid:color_white;0.014398137760191618
+selected;log1p(residual sugar):color_white;0.03924305023699366
+selected;chlorides:color_white;-0.03962889624325372
+selected;log1p(free sulfur dioxide):color_white;0.09506509588960889
+selected;log1p(total sulfur dioxide):color_white;-0.01546847192973518
+selected;density:color_white;-0.06331438819054779
+selected;pH:color_white;0.03718112776158328
+selected;sulphates:color_white;0.023807376519068422
+selected;alcohol:color_white;0.06396003035919723
+selected;fixed acidity^2:color_white;-0.03397288432454644
+selected;fixed acidity volatile acidity:color_white;-0.008958305576218106
+selected;fixed acidity citric acid:color_white;-0.015438537912924443
+selected;fixed acidity log1p(residual sugar):color_white;-0.002133374874868845
+selected;fixed acidity chlorides:color_white;-0.004246833715873144
+selected;fixed acidity log1p(free sulfur dioxide):color_white;0.025382679370813933
+selected;fixed acidity log1p(total sulfur dioxide):color_white;0.002843727244189527
+selected;fixed acidity density:color_white;-0.0019649843111196365
+selected;fixed acidity pH:color_white;0.02455730195867772
+selected;fixed acidity sulphates:color_white;-0.0065035323240504
+selected;fixed acidity alcohol:color_white;-0.024296949644307012
+selected;volatile acidity^2:color_white;0.021243963767836865
+selected;volatile acidity citric acid:color_white;-0.0030904371907824286
+selected;volatile acidity log1p(residual sugar):color_white;-0.014289087429283592
+selected;volatile acidity chlorides:color_white;0.01023707233404484
+selected;volatile acidity log1p(free sulfur dioxide):color_white;-0.008410781404867843
+selected;volatile acidity log1p(total sulfur dioxide):color_white;-0.014853344479115571
+selected;volatile acidity density:color_white;0.006943358548246643
+selected;volatile acidity pH:color_white;0.026690965700565714
+selected;volatile acidity sulphates:color_white;-0.0036382551509918336
+selected;volatile acidity alcohol:color_white;0.034583152285020194
+selected;citric acid^2:color_white;-0.042735541925365175
+selected;citric acid log1p(residual sugar):color_white;-0.0167214010005418
+selected;citric acid chlorides:color_white;0.01802338290852093
+selected;citric acid log1p(free sulfur dioxide):color_white;-0.0009986741222759409
+selected;citric acid log1p(total sulfur dioxide):color_white;-0.007574873778022916
+selected;citric acid density:color_white;-0.01216133207933158
+selected;citric acid pH:color_white;0.03655437158321057
+selected;citric acid sulphates:color_white;0.00763875952855064
+selected;citric acid alcohol:color_white;-0.01021151103259203
+selected;log1p(residual sugar)^2:color_white;-0.002692531602553136
+selected;log1p(residual sugar) chlorides:color_white;-0.06437858402938877
+selected;log1p(residual sugar) log1p(free sulfur dioxide):color_white;-0.020305137372836513
+selected;log1p(residual sugar) log1p(total sulfur dioxide):color_white;0.018907017269442106
+selected;log1p(residual sugar) density:color_white;0.003112680381982187
+selected;log1p(residual sugar) pH:color_white;-0.017819015449327714
+selected;log1p(residual sugar) sulphates:color_white;-0.020947802306603633
+selected;log1p(residual sugar) alcohol:color_white;0.04019263944908555
+selected;chlorides^2:color_white;0.014881171797073905
+selected;chlorides log1p(free sulfur dioxide):color_white;0.00852780774999265
+selected;chlorides log1p(total sulfur dioxide):color_white;-0.015528854626243538
+selected;chlorides density:color_white;0.029598044947935172
+selected;chlorides pH:color_white;-0.017470098676315382
+selected;chlorides sulphates:color_white;-0.012845639989971886
+selected;chlorides alcohol:color_white;-0.05041695854536679
+selected;log1p(free sulfur dioxide)^2:color_white;-0.07912992678603833
+selected;log1p(free sulfur dioxide) log1p(total sulfur dioxide):color_white;-0.01362429025430362
+selected;log1p(free sulfur dioxide) density:color_white;-0.006817338019591709
+selected;log1p(free sulfur dioxide) pH:color_white;0.0016578637617786184
+selected;log1p(free sulfur dioxide) sulphates:color_white;0.04630112074812266
+selected;log1p(free sulfur dioxide) alcohol:color_white;0.029248947552839053
+selected;log1p(total sulfur dioxide)^2:color_white;-0.030696210450585844
+selected;log1p(total sulfur dioxide) density:color_white;-0.013306512420861429
+selected;log1p(total sulfur dioxide) pH:color_white;-0.001630824195014419
+selected;log1p(total sulfur dioxide) sulphates:color_white;-0.0067726058625123126
+selected;log1p(total sulfur dioxide) alcohol:color_white;0.053350317167574546
+selected;density^2:color_white;0.02395656421663598
+selected;density pH:color_white;-0.019119491232202017
+selected;density sulphates:color_white;0.019908121035258235
+selected;density alcohol:color_white;-0.047499470261914964
+selected;pH^2:color_white;0.02696136431518539
+selected;pH sulphates:color_white;0.008448543798272628
+selected;pH alcohol:color_white;-0.0006921004920383556
+selected;sulphates^2:color_white;0.005233075438241062
+selected;sulphates alcohol:color_white;-0.04010647519412547
+selected;alcohol^2:color_white;-0.00791330870387626
+selected;intercept;5.739424100898758

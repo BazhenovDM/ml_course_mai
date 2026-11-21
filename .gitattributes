@@ -1,0 +1,4 @@
+# Keep source datasets and checked splits byte-for-byte on every platform.
+lab1/wine+quality/** -text
+lab2/data/*.csv -text
+lab4/data/*.csv -text

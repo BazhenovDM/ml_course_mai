@@ -1,5 +1,24 @@
 # Концепции машинного обучения
 
+## Выполненные лабораторные работы
+
+| Работа | Ноутбук | Описание |
+| --- | --- | --- |
+| 1. Регрессия на Wine Quality | [lab01.ipynb](lab1/lab01.ipynb) | [ЛР1](lab1/README.md) |
+| 2. Классификация на Titanic | [lab02.ipynb](lab2/lab02.ipynb) | [ЛР2](lab2/README.md) |
+| 3. Оптимизация гиперпараметров | [lab03.ipynb](lab3/lab03.ipynb) | [ЛР3](lab3/README.md) |
+| 4. Байесовская сеть на Palmer Penguins | [lab04.ipynb](lab4/lab04.ipynb) | [ЛР4](lab4/README.md) |
+
+Результаты и графики сохранены в ноутбуках. Чтобы выполнить расчёты, установите зависимости в окружение Python 3.12. Команды запускаются из корня репозитория.
+
+```bash
+python3.12 -m venv lab1/.venv
+lab1/.venv/bin/python -m pip install -r lab1/requirements.txt
+lab1/.venv/bin/python -m ipykernel install --prefix lab1/.venv --name ml-lab --display-name 'Python (ML lab)'
+lab1/.venv/bin/python -m jupyterlab
+```
+
+В JupyterLab откройте нужный ноутбук, выберите ядро **Python (ML lab)** и запустите все ячейки. Для ЛР3 используется исходный набор данных из `lab2/data/`.
 
 ## Материалы курса
 

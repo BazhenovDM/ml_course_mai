@@ -1,0 +1,63 @@
+{
+  "data_sha256": {
+    "wine+quality/winequality-red.csv": "4a402cf041b025d4566d954c3b9ba8635a3a8a01e039005d97d6a710278cf05e",
+    "wine+quality/winequality.names": "15d215e73b39105952380fd487e4ce1bf5a6b83a425abb285c2ec55193d3ca92",
+    "wine+quality/winequality.csv": "c029e8ad1d723f9ff05584faeec3ad60c078cd1944494a52e09b71f369c28d17",
+    "wine+quality/winequality-white.csv": "76c3f809815c17c07212622f776311faeb31e87610d52c26d87d6e361b169836",
+    "wine+quality/splits/test.csv": "17cf3e1e09ee9031f14d2a43791a7c543d5c6ead142cc8110877475d0fcacbbe",
+    "wine+quality/splits/train.csv": "b4af2b9db475b6f3e44a8ee3c5da55cf0ed5ee8715ff2665afe11a1409ae1e44"
+  },
+  "versions_before": {
+    "numpy": "2.5.4",
+    "pandas": "3.1.0",
+    "scikit-learn": "1.9.1",
+    "plotly": "6.9.0"
+  },
+  "metrics": {
+    "baseline": {
+      "features": 0,
+      "rmse": 0.89002198113879,
+      "mae": 0.707366842366935,
+      "train_rmse": 0.868964033055067,
+      "max_abs_error": 2.806868608913756,
+      "gain_rmse_vs_baseline": 0.0,
+      "gain_mae_vs_baseline": 0.0
+    },
+    "ordinary": {
+      "features": 12,
+      "rmse": 0.733494723628501,
+      "mae": 0.57385781343291,
+      "train_rmse": 0.732350174822797,
+      "max_abs_error": 2.984808250790676,
+      "gain_rmse_vs_baseline": 0.156527257510289,
+      "gain_mae_vs_baseline": 0.133509028934025
+    },
+    "selected": {
+      "features": 155,
+      "rmse": 0.695804385543288,
+      "mae": 0.540929672249796,
+      "train_rmse": 0.690317307178076,
+      "max_abs_error": 2.989975410696211,
+      "gain_rmse_vs_baseline": 0.194217595595502,
+      "gain_mae_vs_baseline": 0.166437170117138
+    },
+    "forest": {
+      "features": 12,
+      "rmse": 0.678808994195254,
+      "mae": 0.519446981227803,
+      "train_rmse": 0.217561891972861,
+      "max_abs_error": 2.946666666666666,
+      "gain_rmse_vs_baseline": 0.211212986943537,
+      "gain_mae_vs_baseline": 0.187919861139132
+    },
+    "boosting": {
+      "features": 12,
+      "rmse": 0.68653356827263,
+      "mae": 0.533455602733222,
+      "train_rmse": 0.613726550312457,
+      "max_abs_error": 2.933948027932066,
+      "gain_rmse_vs_baseline": 0.203488412866161,
+      "gain_mae_vs_baseline": 0.173911239633712
+    }
+  }
+}
